@@ -1,0 +1,16 @@
+# 本仓库自己的忽略规则（上游那份在 vendor/mini-swe-agent/.gitignore）
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+*.token
